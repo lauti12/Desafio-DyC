@@ -1,0 +1,141 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+body{
+    margin: 0;
+}
+
+/* header */
+.header-servicios{
+    background-color: #13171C;
+    height: 838px;
+}
+@media(min-width: 768px){
+    .header-servicios{
+        height: 1024px;
+    }
+}
+.header-bienvenida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+@media(min-width: 768px){
+    .header-bienvenida{
+        margin-top: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+.titulo-bienvenida{
+    font-size: 60px;
+}
+@media(min-width: 768px){
+    .titulo-bienvenida{
+        font-size: 96px;
+    }
+}
+.span-color-1{
+    color: #FFFFFF;
+}
+.span-color-2{
+    color: #00ADB5;
+}
+.imagen-bienvenida{
+    width: 219px;
+    height: 211px;
+}
+@media(min-width: 768px){
+    .imagen-bienvenida{
+        width: 353px;
+        height: 340px;
+    }
+}
+
+/*servicios*/
+.servicios{
+    background-color: #13171C;
+    background-image:url(D-W-y-C-fotos/doodle\ items.svg) ;
+    height: 1777px;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+@media(min-width: 768px){
+    .servicios{
+        height: 762px;
+    }
+}
+.servicios-contenedor{
+    height: 1495px;
+    padding: 77px 26px 0 26px;
+    gap: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+@media(min-width: 768px){
+    .servicios-contenedor{
+        height: 469px;
+        padding: 104px 129px 0 129px;
+        gap: 65px;
+        flex-direction: row;
+    }
+}
+.contenedor-card{
+    height: 469px;
+    width: 322px;
+    border-radius: 16px;
+    background-color: rgba(57, 62, 70, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-card-1,
+.imagen-card-2,
+.imagen-card-3{
+    width: 265px;
+    height: 158px;
+}
+.titulo-card-1,
+.titulo-card-2,
+.titulo-card-3{
+    font-size: 33px;
+    line-height: 33px;
+    color: #EEEEEE;
+    text-align: center;
+}
+.contenido-card-1,
+.contenido-card-2,
+.contenido-card-3{
+    width: 280px;
+    font-size: 16px;
+    color: #EEEEEE;
+    padding: 0 40px 0 40px ;
+}
+.contenedor-verMas{
+    height: 47px;
+    font-size: 18px;
+    color: #EEEEEE;
+    padding-top: 107px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+@media(min-width: 768px){
+    .contenedor-verMas{
+        height: 56px;
+        padding-top: 65px;
+        font-size: 24px;
+        align-items: center;
+    }
+}
+.img-verMas{
+    width: 24px;
+    height: 24px;
+}
+

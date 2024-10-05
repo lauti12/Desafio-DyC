@@ -1,0 +1,91 @@
+/* header */
+.header{
+    background-color: #13171C;
+}
+.header-contenedor{
+    height: 114px;
+    padding: 37px 24px 37px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(min-width: 768px){
+    .header-contenedor{
+        height: 121px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 37px 0 37px ;
+    }
+}
+.menu-hamburguesa{
+    width: 40px;
+    height: 40px;
+}
+@media(min-width: 768px){
+    .menu-hamburguesa{
+        display: none;
+    }
+}
+.header-logo{
+    height: 60px;
+    width: 60px;
+}
+@media(min-width: 768px){
+    .header-logo{
+        height: 95px;
+        width: 95px;
+    }
+}
+.header-accesos-directos{
+   display: none;
+}
+@media(min-width: 768px){
+    .header-accesos-directos{
+        display: flex;
+        align-items: center;
+        gap: 42px;
+    }
+}
+.header-ac{
+    color: #EEEEEE;
+    font-size: 18px;
+    text-decoration: none;
+}
+.abre-ventana{
+    background: url("./menu-svgrepo-com\ 1.svg");
+    border: none;
+    width: 40px;
+    height: 40px;
+}
+.ventana{
+    background-color: #13171C;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.cierra-ventana{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    background: url("./close-svgrepo-com\ 1.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+    border: none;
+}
+.ventana-contenido{
+    width: 100%;
+    height: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 208px;
+}
+.ventana-ac{
+    color: #EEEEEE;
+    font-size: 42px;
+    text-decoration: none;
+}

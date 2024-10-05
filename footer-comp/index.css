@@ -1,0 +1,76 @@
+/*footer*/
+.footer{
+    background-color: #0F1113;
+    height: 534px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media(min-width: 768px){
+    .footer{
+        background-color: #13171C;
+        height: 469px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
+.footer-logo{
+    width: 80px;
+    height: 80px;
+}
+.footer-accesos-directos{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+    width: 139px;
+    height: 141px;
+    font-size: 18px;
+    color: #EEEEEE;
+    gap: 20px;
+}
+@media(min-width: 768px){
+    .footer-accesos-directos{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:center ;
+        width: 477px;
+        height: 47px;
+        font-size: 18px;
+        color: #EEEEEE;
+        gap: 48px;
+    }
+}
+.footer-logo-address{
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.footer-redes{
+    display: flex;
+    width: 192px;
+    height: 48px;
+    gap: 24px;
+}
+.footer-redes-address{
+    width: 48px;
+    border-radius: 50px;
+    background-color: #192130;
+}
+.footer-logo-redes{
+    width: 24px;
+    height: 24px;
+    padding: 12px 0 0 12px;
+}
+.footer-copyright{
+    width: 240px;
+    height: 27px;
+    font-size: 18px;
+    color: rgba(238, 238, 238, 0.75);
+}
+.copyright{
+    margin: 0;
+}
