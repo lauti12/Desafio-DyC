@@ -17,7 +17,7 @@ function contactComponent(el) {
                 <textarea class="contacto-input-3"></textarea>
             </label>
             <div class="contacto-contenedor-boton">
-                <button class="contacto-boton">Enviar<img src="/D-W-y-C-fotos/send.svg" alt="" class="contacto-send"></button>
+                <button class="contacto-boton">Enviar<img src="D-W-y-C-fotos/send.svg" alt="" class="contacto-send"></button>
             </div>
         </form>
     </section>

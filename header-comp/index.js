@@ -8,16 +8,16 @@ function headerComponent(el) {
                 <button class="abre-ventana"></button>
             </div>
             <div class="header-accesos-directos">
-                <a class="header-ac" href="/portfolio.html">Portfolio</a>
-                <a class="header-ac" href="/servicios.html">Servicios</a>
-                <a class="header-ac" href="/contacto.html">Contacto</a>
+                <a class="header-ac" href="./portfolio.html">Portfolio</a>
+                <a class="header-ac" href="./servicios.html">Servicios</a>
+                <a class="header-ac" href="./contacto.html">Contacto</a>
             </div>
             <div class="ventana">
                 <button class="cierra-ventana"></button>
                 <div class="ventana-contenido">
-                    <a class="ventana-ac" href="/portfolio.html">Portfolio</a>
-                    <a class="ventana-ac" href="/servicios.html">Servicios</a>
-                    <a class="ventana-ac" href="/contacto.html">Contacto</a>
+                    <a class="ventana-ac" href="./portfolio.html">Portfolio</a>
+                    <a class="ventana-ac" href="./servicios.html">Servicios</a>
+                    <a class="ventana-ac" href="./contacto.html">Contacto</a>
                 </div>
             </div>
         </div>
