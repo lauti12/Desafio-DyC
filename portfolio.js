@@ -26,7 +26,6 @@ function getPortfolioContent() {
       return res.json();
     })
     .then((data) => {
-      console.log(data);
       return {
         title1: data.items[0].fields.titulo1,
         title2: data.items[0].fields.titulo2,
